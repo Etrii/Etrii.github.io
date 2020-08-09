@@ -1,0 +1,60 @@
+body {
+
+  background-color: #424040;
+
+}
+
+#main {
+
+  width: 100%;
+  background-color: #2b2929;
+  color: white;
+
+}
+
+#baner {
+
+  width: 100%;
+  height: 20%;
+
+}
+
+.baner_info {
+
+  width: 33%;
+  height: 100%;
+  float: left;
+  text-align: center;
+
+}
+
+#baner_logo {
+
+  width: 33%;
+  height: 100%;
+  float: left;
+
+}
+
+#logo_image {
+
+  width: 50%;
+  height: 100%;
+  background-image: url("logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.menu_button {
+
+
+
+}
+
+#content {
+
+
+
+}
