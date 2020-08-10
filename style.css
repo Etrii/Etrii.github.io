@@ -1,60 +1,245 @@
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
 body {
 
   background-color: #424040;
+  font-family: Calibri;
+  overflow-x: hidden;
+  color: #eeeeee;
 
 }
 
 #main {
 
-  width: 100%;
-  background-color: #2b2929;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
+  background-color: #424040;
 
 }
 
-#baner {
+#header {
 
-  width: 100%;
-  height: 20%;
+  height: 75px;
+  width: 100vw;
+  overflow: hidden;
+  /*background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));*/
+  background-color: #2b2929;
 
 }
 
-.baner_info {
+#logo {
 
-  width: 33%;
-  height: 100%;
+  width: 120px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-left: 35px;
+  margin-right: 10px;
   float: left;
-  text-align: center;
-
-}
-
-#baner_logo {
-
-  width: 33%;
-  height: 100%;
-  float: left;
-
-}
-
-#logo_image {
-
-  width: 50%;
-  height: 100%;
-  background-image: url("logo.png");
-  background-size: contain;
+  background-image: url("images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 
 }
 
 .menu_button {
 
-
+  color: white;
+  padding-left: 10px;
+  margin-top: 10px;
+  height: 36px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 10px;
+  background-color: #2b2929;
+  float: left;
+  border-width: 2px;
+  border-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.15s;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
 
 }
 
-#content {
+.menu_button:hover {
 
+  border-radius: 10px;
+  background-color: #4e4b4b;
+  transition: 0.15s;
+  width: 150px;
 
+}
+
+#yt {
+
+  float: right;
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  transition: 0.15s;
+  margin-right: 35px;
+  background-image: url("images/yt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+
+}
+
+#yt:hover{
+
+  width: 51px;
+  height: 50px;
+  transition: 0.15s;
+
+}
+
+.page1 {
+
+  width: 100vw;
+  height: 600px;
+  background-color: #424040;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.page2 {
+
+  width: 100vw;
+  height: 600px;
+  background-color: #343232;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.content {
+
+  width: 85vw;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+
+  font-size: 50px;
+  /*color: white;*/
+  font-weight: normal;
+
+}
+
+h1::first-letter {
+
+  color: #ff4d4d;
+  font-weight: bold;
+
+}
+
+#footer1 {
+
+  height: 35px;
+  width: 100vw;
+  padding-top: 15px;
+  background-color: #424040;
+
+}
+
+#footer2 {
+
+  height: 35px;
+  width: 100vw;
+  padding-top: 15px;
+  background-color: #343232;
+
+}
+
+#footerContent {
+
+  width: 85vw;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#footerButton {
+
+  transition: 0.15s;
+  float: right;
+  cursor: pointer;
+  border-left-style: dotted;
+  padding-left: 5px;
+  border-left-width: 1px;
+  margin-left: 5px;
+
+}
+
+#footerButton:hover {
+
+  color: #ff4d4d;
+  transition: 0.15s;
+
+}
+
+a {
+
+  color: #eeeeee;
+
+}
+
+a:visited {
+
+  color: #eeeeee;
+  text-decoration: none;
+
+}
+
+.imageContainer {
+
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.imageC {
+
+  float: left;
+  margin-left: 20px;
+
+}
+
+.tutorialContainer {
+
+  width: 1000px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.tutorialItem {
+
+  width: 300px;
+  height: 400px;
+  margin-left: 30px;
+  float: left;
+  text-align: justify;
+  font-size: 20px;
 
 }
